@@ -10,4 +10,7 @@ describe('fromWhere function' , function(){
  it('should  return Cape Town if registration number is CA ' , function(){
     assert.equal(fromWhere('CA'),'Cape Town')
 });
+it('should  return some other place if the is no registration number ' , function(){
+    assert.equal(fromWhere('CF'),'Some other place!')
+});
 });
