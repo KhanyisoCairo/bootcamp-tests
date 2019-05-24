@@ -1,4 +1,9 @@
 function regCheck(regNum,loc){
+    if(regNum.startsWith(loc)){
+        return true;
+    }else if(regNum.endsWith(loc)){
+        return false;
+    }
     return regNum.endsWith(loc)
 }
 
