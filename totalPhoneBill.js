@@ -1,4 +1,4 @@
-function totalPhoneBill(data){
+module.exports =function(data){
     console.log(data)
   var list =data.split(', ');
     var call = 0;

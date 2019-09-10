@@ -1,4 +1,4 @@
-function isWeekday(week){
+module.exports =function(week){
     if(week.startsWith('M')){
       return true;
     }

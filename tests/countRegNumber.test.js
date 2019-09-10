@@ -1,3 +1,6 @@
+let assert = require("assert");
+let countRegNumber = require("../countRegNumber");
+
 describe('countRegNumber function' , function(){
     it('should return 2 registration number' , function(){
         assert.equal(countRegNumber('CY345,CJ678'),2);   

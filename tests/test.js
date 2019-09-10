@@ -1,3 +1,6 @@
+
+let assert = require("assert");
+let regCheck = require("../regCheck");
 describe('this test' , function(){
     it('should show you how to use MochaJS' , function(){
         assert.equal(2,2);

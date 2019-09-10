@@ -1,3 +1,6 @@
+let assert = require("assert");
+let yearsAgo = require("../yearsAgo");
+
 describe('yearsAgo function' , function(){
     it(' should return 1 years when the year is 2018' , function(){
         assert.equal(yearsAgo(2018),1 )

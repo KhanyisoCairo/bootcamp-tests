@@ -1,4 +1,4 @@
-function transportFee(shiftFee){
+module.exports =function(shiftFee){
     console.log(shiftFee)
      switch(shiftFee){
        case "morning":

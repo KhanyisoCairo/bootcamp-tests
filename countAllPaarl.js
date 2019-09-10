@@ -1,4 +1,4 @@
-function countAllPaarl(regNum){
+module.exports =  function (regNum){
     var countPaarl = regNum.split(', ');
     var paarl = [];
     console.log(countPaarl)

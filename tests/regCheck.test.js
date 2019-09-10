@@ -1,3 +1,6 @@
+let assert = require("assert");
+let regCheck = require("../regCheck");
+
 describe('regCheck' , function(){
      it('should check a registration number is GP also the location is the same and return true ' , function(){
         assert.equal(regCheck('DV 23 NB GP', 'GP'),true)

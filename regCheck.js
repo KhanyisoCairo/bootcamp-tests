@@ -1,4 +1,4 @@
-function regCheck(regNum,loc){
+module.exports =function (regNum,loc){
     if(regNum.startsWith(loc)){
         return true;
     }else if(regNum.endsWith(loc)){

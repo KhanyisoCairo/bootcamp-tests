@@ -1,4 +1,4 @@
-function findItemsOver20(products){
+module.exports = function (products){
     var allproducts =[];
     for(var i =0; i<products.length;i++){  
       if(products[i].qty > 20){

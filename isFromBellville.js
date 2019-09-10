@@ -1,4 +1,4 @@
-function isFromBellville(regNum){
+module.exports =function (regNum){
     if(regNum.startsWith('CY')){
        return true;
        }

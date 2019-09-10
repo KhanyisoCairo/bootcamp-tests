@@ -1,3 +1,6 @@
+let assert = require("assert");
+let greet = require("../greet");
+
 describe('greet function' , function(){
     it('should greet with name "Cairo"' , function(){
         assert.equal(greet('Cairo'), "Hello, Cairo")
